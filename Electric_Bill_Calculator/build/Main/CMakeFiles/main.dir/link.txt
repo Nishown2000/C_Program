@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/main.dir/src/main.c.o -o main  ../Function/libfunction.a 
