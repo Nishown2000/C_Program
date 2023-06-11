@@ -44,7 +44,10 @@ Install dependencies
 Run the code
 
 ```bash
-   cmake -S . -B build/
-   make -C build/
-   ./build/Main/main
+   Method 1 to run code(Manually):
+      cmake -S . -B build/
+      make -C build/
+      ./build/Main/main
+   Method 2 to run code(Script):
+      ./electric_bill_calculator.py
 ```
