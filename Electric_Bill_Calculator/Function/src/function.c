@@ -19,9 +19,26 @@ void enter_information () {
 void calculate_which_formula() {
     if (strcasecmp(bill.area,"urban") == 0) {
         printf("Urban is Selected\n");
+        urban_based_calculation();
     }
     else if (strcasecmp(bill.area,"rural") == 0)
     {
         printf("Rural is Selected\n");
+        rural_based_calculation();
     }
+    else
+    {
+        printf("!!!!!!!! Provide Proper Information !!!!!!!!!\n");
+        printf("Area (Choose Urban or Rural): ");
+        scanf("%s", bill.area);
+        calculate_which_formula();
+    }
+}
+
+void rural_based_calculation() {
+    return 0;
+}
+
+void urban_based_calculation() {
+    return 0;
 }
