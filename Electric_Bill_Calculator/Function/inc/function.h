@@ -22,5 +22,6 @@ typedef struct billDetails_st {
 billDetails_t bill;
 
 void enter_information(); //Function for entering required information
+void calculate_which_formula(); //Fuction for getting formula based on area
 
 #endif

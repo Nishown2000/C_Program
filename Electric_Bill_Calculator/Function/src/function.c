@@ -4,7 +4,7 @@ void enter_information () {
     printf("***** Enter Information For Electric Bill ****\n");
     printf("Name : ");
     scanf("%s", bill.name);
-    printf("Area : ");
+    printf("Area (Choose Urban or Rural): ");
     scanf("%s", bill.area);
     printf("Email : ");
     scanf("%s", bill.email);
@@ -14,4 +14,14 @@ void enter_information () {
     scanf("%d", &bill.meterNumber);
     printf("Total Unit Consumption : ");
     scanf("%d", &bill.unitUsed);
+}
+
+void calculate_which_formula() {
+    if (strcasecmp(bill.area,"urban") == 0) {
+        printf("Urban is Selected\n");
+    }
+    else if (strcasecmp(bill.area,"rural") == 0)
+    {
+        printf("Rural is Selected\n");
+    }
 }
