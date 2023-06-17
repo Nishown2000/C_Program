@@ -6,5 +6,6 @@ int main (int argc, char* argv[])
 
     calculate_which_formula();
 
+    displayamt();
     return 0;
 }

@@ -3,5 +3,6 @@
 
 extern void enter_information();
 extern void calculate_which_formula();
+extern void displayamt();
 
 #endif
